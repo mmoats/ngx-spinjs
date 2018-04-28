@@ -1,0 +1,15 @@
+<div style="text-align:center">
+  <h1>
+    ngx-spinjs
+  </h1>
+  <hr>
+  <ngx-spinjs [toggleSpinner]="spin" [backdrop]="false" [options]="spinnerOptions" (spinUpdate)="onUpdate($event)"></ngx-spinjs>
+  <button (click)="showSpinner()">Show Spinner</button>
+</div>
+
+<div class="example-container">
+  <div class="example">
+    <ngx-spinjs [toggleSpinner]="smallSpin" [backdrop]="true" (spinUpdate)="onUpdate($event)"></ngx-spinjs>
+    <button (click)="smallSpinner()">Show Spinner</button>
+  </div>
+</div>

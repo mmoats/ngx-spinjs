@@ -1,0 +1,12 @@
+.example-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.example {
+  margin: 5px;
+  padding: 15px;
+}
