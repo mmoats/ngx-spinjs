@@ -7,7 +7,9 @@ ngx-spinjs
 Usage
 ===========
 
-`npm i ngx-spinjs`
+`npm install ngx-spinjs@1.0.0` for Angular 6
+
+`npm install ngx-spinjs@0.1.1` for Angular 5
 
 Import NgxSpinjsModule to NgModule
 
